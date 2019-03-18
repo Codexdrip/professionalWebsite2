@@ -1,0 +1,29 @@
+{
+  "name": "professional_website_2",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "morgan": "~1.9.0",
+    "cors": "^2.8.5",
+    "nodemailer": "^5.1.1"
+  },
+  "description": "My professional Website",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CRFullStack/professionalWebsite2.git"
+  },
+  "author": "CRFullStack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CRFullStack/professionalWebsite2/issues"
+  },
+  "homepage": "https://github.com/CRFullStack/professionalWebsite2#readme"
+}
