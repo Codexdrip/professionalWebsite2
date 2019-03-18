@@ -25,11 +25,6 @@ transporter.verify((error, success) => {
   }
 });
 
-/* GET home page. */
-router.get("/", function(req, res, next) {
-  res.render("index", { title: "Express" });
-});
-
 // Test the send route
 router.get("/send", (req, res, next) => {
   res.send("Send a post to /send!");
@@ -65,8 +60,9 @@ router.post("/send", cors(), (req, res, next) => {
   });
 });
 
-router.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname + "/../p-w-frontend/build/index.html"));
+// Anything that doesn't match the above, send back index.html
+router.get("/*", (req, res) => {
+  res.sendFile(path.join(__dirname + "/../client/build/index.html"));
 });
 
 module.exports = router;

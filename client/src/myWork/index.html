@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/masterStyles.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|EB+Garamond|Open+Sans+Condensed:700|Patua+One" rel="stylesheet">
+    
+  </head>
+  <!-- Navigation -->
+  <nav
+    class="navbar navbar-expand-lg navbar-light bg-lignt ml-auto shadow fixed-top nav-start"
+  >
+    <div class="container">
+      <a class="navbar-brand" href="#"><span>&lt;CodeSplash/&gt;</span></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarResponsive"
+        aria-controls="navbarResponsive"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >HOME
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CLIENTS</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Full Page Image Header with Vertically Centered Content -->
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row align-items-center">
+        <div class="col-12 text-center">
+          <img
+          id="mastImg"
+          class="img-responsive"
+            src="https://cdn.pixabay.com/photo/2017/09/13/17/45/laptop-2746336_640.png"
+            alt=""
+          >  
+            <div class="centered">
+                <h3>
+                    <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Si.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+                      <span class="wrap"></span>
+                    </a>
+                </h3>
+            </div>
+        </img>
+        </div>
+        <div class="col-12 text-center">
+          <h1 class="font-weight-light welcome-text">
+            Welcome to CodeSplash! Let's take a scroll ;)...
+          </h1>
+          <br/><div id="services"></div>
+          <p>
+              I’m a software developer with a specialty in JavaScript and Python.
+              My software development career grew from a curiosity of wanting to
+              learn about penetration testing. I quickly found myself staying up
+              late, reading everything I could find to get a better understanding
+              of the subject. I soon realized that any legit penetration tester
+              was writing their own code to achieve the goals they were seeking.
+              Fast forward to today and that curiosity has turned into a passion
+              for software development!
+            </p>
+            
+          
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <body>
+    <!-- Page Content -->
+    
+    <section class="container services h-80">
+        <!---Design & Develop https://cdn.pixabay.com/photo/2017/06/30/20/05/electronics-2459502_640.png-->
+        <div class="row align-items-start">
+          <div class="col">
+            <h3>SERVICES</h3>
+          </div> 
+          <br/>  
+        </div>
+        <div class="row align-items-start">
+          
+            <div class="col col-2 ">
+              <img id="design" class="img-responsive" src="./assest/images/web.gif" alt="">
+            </div>
+            <div class="col text-hide">
+              hidden
+            </div>
+            <div class="col text-hide">
+               hidden
+          </div>
+          
+      </div>
+      <div class="row align-items-center">
+            <div class="col">
+              <div class="col-2">
+                <h3 class="">Design & Development</h3>
+              </div>
+              <br/>
+              <div class="col">
+                <p >
+                    I’m a software developer with a specialty in JavaScript and Python.
+                    My software development career grew from a curiosity of wanting to
+                    learn about penetration testing. I quickly found myself staying up
+                    late, reading everything I could find to get a better understanding
+                    of the subject. I soon realized that any legit penetration tester
+                    was writing their own code to achieve the goals they were seeking.
+                    Fast forward to today and that curiosity has turned into a passion
+                    for software development! Here I can talk about my web design abilities 
+                    using the lastest tools in web dev such as react and node, but also
+                    legacy tools like Java and Spring.  I'll keep this topic limited to web 
+                    development. 
+                </p> 
+              </div>
+            </div>
+      </div>
+      <!---Automation-->
+      <div class="row align-items-start">
+          <div class="col text-hide">
+            hidden
+          </div>
+          <div class="col text-hide">
+            hidden
+          </div>
+          <div class="col col-12">
+            <img id="automation" class="img-responsive float-right" src="./assest/images/automation.gif" alt="">
+        </div>
+        
+    </div>
+    <div class="row align-items-center">
+          <div class="col col-12 ">
+              <h3 class="float-right">Automation</h3>
+              <br/>
+            <div class="col col-12">
+                <p id="about" class="float-right">
+                    I’m a software developer with a specialty in JavaScript and Python.
+                    My software development career grew from a curiosity of wanting to
+                    learn about penetration testing. I quickly found myself staying up
+                    late, reading everything I could find to get a better understanding
+                    of the subject. I soon realized that any legit penetration tester
+                    was writing their own code to achieve the goals they were seeking.
+                    Fast forward to today and that curiosity has turned into a passion
+                    for software development! Here I can talk about my web design abilities 
+                    using the lastest tools in web dev such as react and node, but also
+                    legacy tools like Java and Spring.  I'll keep this topic limited to web 
+                    development. 
+                </p> 
+            </div>
+          </div>
+      </div>
+    </section>
+    <br/>
+    <br/>
+    <section class="masthead">
+        <div class="container h-80">
+          <div class="bg-3 text-center">
+              
+              <div class="row align-items-start about">
+                  <div class="col col-2 ">
+                      <img
+                      id="sonic"
+                      src="./assest/images/snoopy.gif"
+                      class="img-responsive"
+                      style="width:100%"
+                      alt="Image"
+                    />
+                  </div>
+                  <div class="col text-hide">
+                      hidden
+                  </div>
+                  <div class="col text-hide">
+                    hidden
+                  </div>
+              </div>
+              <div class="row align-items-center about">
+                  <div class="col text-hide ">
+                      hidden
+                    />
+                  </div>
+                  <div class="col col-8 me">
+                      <p>
+                          I’m a software developer with a specialty in JavaScript and Python.
+                          My software development career grew from a curiosity of wanting to
+                          learn about penetration testing. I quickly found myself staying up
+                          late, reading everything I could find to get a better understanding
+                          of the subject. I soon realized that any legit penetration tester
+                          was writing their own code to achieve the goals they were seeking.
+                          Fast forward to today and that curiosity has turned into a passion
+                          for software development! Here I can talk about my web design abilities 
+                          using the lastest tools in web dev such as react and node, but also
+                          legacy tools like Java and Spring.  I'll keep this topic limited to web 
+                          development. 
+                      </p>
+                      <img class="rounded-circle" src="./assest/images/chris3.png" alt="">
+                  </div>
+                  <div class="col text-hide">
+                    hidden
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+
+    <section class="container-fluid h-80 bg-3 text-center">
+      <br/>
+      <br/>
+      <h3>
+          I am really grateful to have had the pleasure of working with such a diverse type of organizations, 
+          from household brands and public institutions to startups with a dream to change the world. Here's a 
+          little bit about them and what we've done together to give you a sense of what I can do.
+      </h3>
+      <br />
+      <div class="row">
+        <div class="col-sm-3">
+          <img
+            src="./assest/images/output-onlinepngtools.png"
+            class="img-responsive"
+            style="width:50%"
+            alt="Image"
+          />
+          <p>
+            Developed an iternal tool using Javascript to automate the export of data 
+            from the fast field form application to an adobe PDF form. This helps the 
+            engineers cut down the repetitive task of filling out forms.
+          </p>
+        </div>
+        <div class="col-sm-3">
+          <img
+            src="./assest/images/logo.png"
+            class="img-responsive"
+            style="width:50%"
+            alt="Image"
+          /> 
+          <p>
+            Using Greater Givings CMS, I developed the silent auction website for Atlanta 
+            Classical Academys Annual silent auction. I set up the website to collect registration 
+            and take payments using TLS encryption. I used tools like HTML5, CSS3, & Javascript
+            to set up the UI/UX of the site. Not only did I set up the website, I also set up the network 
+            infrastructure the night of the event. With my help, we were able to double the proceeds that 
+            the school raised the previous year totaling over $100,000.  
+          </p>
+        </div>
+        <div class="col-sm-3">
+          
+          <img
+            src="./assest/images/ehp.png"
+            class="img-responsive"
+            style="width:50%"
+            alt="Image"
+          />
+          <p>
+            I started my career in software development here. Its also the place I honed my SQL skills. I used MSSQL to create new
+            queries and make the existing queries more efficent. 
+
+          </p>
+        </div>
+        <div class="col-sm-3">
+        
+          <img
+            src="./assest/images/cfa.png"
+            class="img-responsive"
+            style="width:50%"
+            alt="Image"
+          />  
+          <p>
+            Working at Chick-fil-A HELP, I developed all types of scripts and web apps using programming languages like:
+            Python, Javascript, jQuery, HTML5, CSS3, & Bootstrap just to name a few. My task ranged from developing a way
+            to help streamline the S.O.P flowcharts using a web app to automating daily task that analyst had to use everyday. I 
+            worked along side a team of 5 in an agile environment while working here.  
+          </p>
+        </div>
+      </div>
+    </section>
+    <br />
+
+    <section class="container-fluid bg-3 text-center">
+      <div class="row">
+        <div class="col-sm-3">
+          
+          <img
+            src="./assest/images/thomp.png"
+            class="img-responsive"
+            style="width:50%"
+            alt="Image"
+          />
+          <p>Currently working for Thompson Technologies as a contractor for Chick-fil-A</p>
+        </div>
+        <div class="col-sm-3">
+         
+          <img
+            src="./assest/images/comingsoon.jpg"
+            class="img-responsive"
+            style="width:50%"
+            alt="Image"
+          /> 
+          <p>New Clients coming soon.</p>
+        </div>
+        <div class="col-sm-3">
+          
+            <img
+            src="./assest/images/comingsoon.jpg"
+            class="img-responsive"
+            style="width:50%"
+            alt="Image"
+          /> 
+          <p>New Clients coming soon.</p>
+        </div>
+        <div class="col-sm-3">
+          
+            <img
+            src="./assest/images/comingsoon.jpg"
+            class="img-responsive"
+            style="width:50%"
+            alt="Image"
+          /> 
+          <p>New Clients coming soon.</p>
+        </div>
+      </div>
+    </section>
+
+    <br /><br />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/jQueryFunctions.js"></script>
+    <script src="./js/pureJs.js"></script>
+  </body>
+  <footer class="container-fluid text-center">
+    <p>&copy; 2019 CodeSplah. All rights reserved.</p>
+  </footer>
+</html>
