@@ -18,7 +18,7 @@ class Contact extends Component {
     const _message = this.state.message;
     console.log("about to send from front end");
     axios
-      .post("http://localhost:5000/send", {
+      .post("/send", {
         name: _name,
         email: _email,
         message: _message
