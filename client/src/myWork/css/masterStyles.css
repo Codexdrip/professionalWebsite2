@@ -108,6 +108,8 @@ header p {
 /*Sets the background color and height for the header*/
 .masthead {
   height: 120vh;
+  width: 100%;
+  margin: 0;
 
   /* provide the gradient color*/
   background-image: url("https://source.unsplash.com/BtbjCFUvBXs/1920x1080");
